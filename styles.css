@@ -1,0 +1,39 @@
+h1 {
+  color: orange;
+  font-size: 3rem;
+}
+body {
+  background-color: #1a1a2e;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+.tarjeta {
+  background-color: #16213e;
+  padding: 20px; /* espacio adentro */
+  border: 2px solid orange; /* grosor, estilo, color */
+  margin: 20px; /* espacio afuera */
+  border-radius: 12px; /* esquinas redondeadas */
+}
+.tarjeta img {
+  width: 100%;
+  max-width: 300px;
+}
+nav a {
+  color: orange;
+  text-decoration: none;
+  margin-right: 1rem;
+}
+section a {
+  color: #4fc3f7;
+}
+.contenido {
+  display: flex;
+  gap: 2rem;
+  align-items: center;
+}
+header {
+  display: flex;
+  justify-content: space-between; /* uno a cada extremo ↔️ */
+  align-items: center; /* centrados verticalmente ↕️ */
+  padding: 0 2rem; /* 0 arriba/abajo, 2rem a los lados */
+}
