@@ -37,3 +37,26 @@ header {
   align-items: center; /* centrados verticalmente ↕️ */
   padding: 0 2rem; /* 0 arriba/abajo, 2rem a los lados */
 }
+.galeria {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.guerrero {
+  background-color: #0f3460; /* distinto al de .tarjeta */
+  padding: 1rem;
+  border-radius: 10px;
+}
+@media (max-width: 768px) {
+  .galeria {
+    grid-template-columns: 1fr;
+  }
+
+  .contenido {
+    flex-direction: column;
+  }
+
+  header {
+    flex-direction: column;
+  }
+}
